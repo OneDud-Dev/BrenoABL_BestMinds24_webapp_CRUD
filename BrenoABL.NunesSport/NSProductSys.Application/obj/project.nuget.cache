@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "mbN37UVqdHifj1DUyCipZBgmvZNHFz68jqekMdB7NMsS16SvGBqrm8hPZ/vuAJ/zseiKqitApA4E2WV+6io+GQ==",
+  "success": true,
+  "projectFilePath": "D:\\Breno\\Documents\\_Projects\\CSharp\\BrenoABL_BestMinds24_webapp_CRUD\\BrenoABL.NunesSport\\NSProductSys.Application\\NSPS.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Breno\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\Breno\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Breno\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+D:\Breno\Documents\_Projects\CSharp\BrenoABL.BestMinds24.NunesSportProductSys.C#\NSProductSys.Infra\obj\Debug\net6.0\NSPS.Infra.csproj.AssemblyReference.cache
+D:\Breno\Documents\_Projects\CSharp\BrenoABL.BestMinds24.NunesSportProductSys.C#\NSProductSys.Infra\obj\Debug\net6.0\NSPS.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Breno\Documents\_Projects\CSharp\BrenoABL.BestMinds24.NunesSportProductSys.C#\NSProductSys.Infra\obj\Debug\net6.0\NSPS.Infra.AssemblyInfoInputs.cache
+D:\Breno\Documents\_Projects\CSharp\BrenoABL.BestMinds24.NunesSportProductSys.C#\NSProductSys.Infra\obj\Debug\net6.0\NSPS.Infra.AssemblyInfo.cs
+D:\Breno\Documents\_Projects\CSharp\BrenoABL.BestMinds24.NunesSportProductSys.C#\NSProductSys.Infra\obj\Debug\net6.0\NSPS.Infra.csproj.CoreCompileInputs.cache
+D:\Breno\Documents\_Projects\CSharp\BrenoABL.NunesSport\NSProductSys.Infra\obj\Debug\net6.0\NSPS.Infra.csproj.AssemblyReference.cache
+D:\Breno\Documents\_Projects\CSharp\BrenoABL.NunesSport\NSProductSys.Infra\obj\Debug\net6.0\NSPS.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Breno\Documents\_Projects\CSharp\BrenoABL.NunesSport\NSProductSys.Infra\obj\Debug\net6.0\NSPS.Infra.AssemblyInfoInputs.cache
+D:\Breno\Documents\_Projects\CSharp\BrenoABL.NunesSport\NSProductSys.Infra\obj\Debug\net6.0\NSPS.Infra.AssemblyInfo.cs
+D:\Breno\Documents\_Projects\CSharp\BrenoABL.NunesSport\NSProductSys.Infra\obj\Debug\net6.0\NSPS.Infra.csproj.CoreCompileInputs.cache
