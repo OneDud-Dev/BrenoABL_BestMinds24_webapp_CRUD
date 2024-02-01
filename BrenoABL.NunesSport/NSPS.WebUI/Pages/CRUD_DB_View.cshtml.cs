@@ -14,6 +14,7 @@ namespace NSPS.WebUI.Pages
 
         public void OnGet()
         {
+            //string connectionString = "";
         }
     }
 }

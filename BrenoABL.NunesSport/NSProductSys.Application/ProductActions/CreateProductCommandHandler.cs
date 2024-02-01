@@ -1,12 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MediatR;
+using NSPS.Domain.ValueObjects;
 
-namespace NSPS.Application.ProductActions
+namespace NSPS.Application.ProductActions;
+
+internal sealed class CreateProductCommandHandler : IRequestHandler<CreateProductCommand>
 {
-    internal class CreateProductCommandHandler
+    //public async Task<Unit> Handle(CreateProductCommand request, CancellationToken cancellationToken)
+    //{
+    //    var prodName        = ProductName.Creater(request.pName);
+    //    var prodCode        = ProductCode.Create(request.pCode);
+    //    var prodCost        = ProductCost.Create(request.pCost);
+    //    var prodDescription = ProductDescription.Create(request.pDescription);
+    //
+    //
+    //}
+    public Task Handle(CreateProductCommand request, CancellationToken cancellationToken)
     {
+        throw new NotImplementedException();
     }
 }

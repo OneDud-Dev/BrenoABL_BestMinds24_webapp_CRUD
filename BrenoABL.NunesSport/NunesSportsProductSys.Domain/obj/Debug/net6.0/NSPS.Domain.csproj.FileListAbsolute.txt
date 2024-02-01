@@ -13,3 +13,14 @@ D:\Breno\Documents\_Projects\CSharp\BrenoABL.NunesSport\NunesSportsProductSys.Do
 D:\Breno\Documents\_Projects\CSharp\BrenoABL.NunesSport\NunesSportsProductSys.Domain\obj\Debug\net6.0\refint\NSPS.Domain.dll
 D:\Breno\Documents\_Projects\CSharp\BrenoABL.NunesSport\NunesSportsProductSys.Domain\obj\Debug\net6.0\NSPS.Domain.pdb
 D:\Breno\Documents\_Projects\CSharp\BrenoABL.NunesSport\NunesSportsProductSys.Domain\obj\Debug\net6.0\ref\NSPS.Domain.dll
+D:\Breno\Documents\_Projects\CSharp\BrenoABL_BestMinds24_webapp_CRUD\BrenoABL.NunesSport\NunesSportsProductSys.Domain\bin\Debug\net6.0\NSPS.Domain.deps.json
+D:\Breno\Documents\_Projects\CSharp\BrenoABL_BestMinds24_webapp_CRUD\BrenoABL.NunesSport\NunesSportsProductSys.Domain\bin\Debug\net6.0\NSPS.Domain.dll
+D:\Breno\Documents\_Projects\CSharp\BrenoABL_BestMinds24_webapp_CRUD\BrenoABL.NunesSport\NunesSportsProductSys.Domain\bin\Debug\net6.0\NSPS.Domain.pdb
+D:\Breno\Documents\_Projects\CSharp\BrenoABL_BestMinds24_webapp_CRUD\BrenoABL.NunesSport\NunesSportsProductSys.Domain\obj\Debug\net6.0\NSPS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Breno\Documents\_Projects\CSharp\BrenoABL_BestMinds24_webapp_CRUD\BrenoABL.NunesSport\NunesSportsProductSys.Domain\obj\Debug\net6.0\NSPS.Domain.AssemblyInfoInputs.cache
+D:\Breno\Documents\_Projects\CSharp\BrenoABL_BestMinds24_webapp_CRUD\BrenoABL.NunesSport\NunesSportsProductSys.Domain\obj\Debug\net6.0\NSPS.Domain.AssemblyInfo.cs
+D:\Breno\Documents\_Projects\CSharp\BrenoABL_BestMinds24_webapp_CRUD\BrenoABL.NunesSport\NunesSportsProductSys.Domain\obj\Debug\net6.0\NSPS.Domain.csproj.CoreCompileInputs.cache
+D:\Breno\Documents\_Projects\CSharp\BrenoABL_BestMinds24_webapp_CRUD\BrenoABL.NunesSport\NunesSportsProductSys.Domain\obj\Debug\net6.0\NSPS.Domain.dll
+D:\Breno\Documents\_Projects\CSharp\BrenoABL_BestMinds24_webapp_CRUD\BrenoABL.NunesSport\NunesSportsProductSys.Domain\obj\Debug\net6.0\refint\NSPS.Domain.dll
+D:\Breno\Documents\_Projects\CSharp\BrenoABL_BestMinds24_webapp_CRUD\BrenoABL.NunesSport\NunesSportsProductSys.Domain\obj\Debug\net6.0\NSPS.Domain.pdb
+D:\Breno\Documents\_Projects\CSharp\BrenoABL_BestMinds24_webapp_CRUD\BrenoABL.NunesSport\NunesSportsProductSys.Domain\obj\Debug\net6.0\ref\NSPS.Domain.dll

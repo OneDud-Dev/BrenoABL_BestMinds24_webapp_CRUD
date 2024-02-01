@@ -1,12 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System;
-
+﻿
 
 namespace NSPS.Domain.Primitives;
 
 public abstract class AnEntity : IEquatable<AnEntity>
 {
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public Guid Id { get; private init; }
 
 

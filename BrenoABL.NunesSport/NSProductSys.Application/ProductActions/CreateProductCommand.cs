@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MediatR;
+using NSPS.Domain.ValueObjects;
 
-namespace NSPS.Application.ProductActions
-{
-    internal class CreateProductCommand
-    {
-    }
-}
+namespace NSPS.Application.ProductActions;
+
+public sealed record CreateProductCommand  (string pName,
+                                            double pCode,
+                                            double pCost,
+                                            string pDescription) : IRequest
+{   }

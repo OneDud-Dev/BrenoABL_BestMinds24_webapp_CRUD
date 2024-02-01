@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NSProductSys.Application\NSPS.Application.csproj" />
     <ProjectReference Include="..\NunesSportsProductSys.Domain\NSPS.Domain.csproj" />
   </ItemGroup>
 
