@@ -1,12 +1,12 @@
 ﻿using NSPS.Domain.CustomExceptions.ProductCreationExceptions;
-using NSPS.Domain.Primitives;
+
 
 
 namespace NSPS.Domain.ValueObjects;
 
-public sealed class ProductDescription : AValueObject
+public record ProductDescription
 {
-    public string prodDescription { get; init; }
+    public string ProdDescription { get; private set; } = string.Empty;
     private const int minText = 10;
     private const int maxText = 600;
 
@@ -15,7 +15,7 @@ public sealed class ProductDescription : AValueObject
     {
         this.prodDescription = prodDescription;
     }
-    public static ProductDescription Create(string? description)
+    public static ProductDescription Create(string description)
     {
         if (description is null)
         {
@@ -36,9 +36,4 @@ public sealed class ProductDescription : AValueObject
         return new ProductDescription(description);
     }
 
-
-    public override IEnumerable<object> GetAtomicValues()
-    {
-        yield return prodDescription;
-    }
 }

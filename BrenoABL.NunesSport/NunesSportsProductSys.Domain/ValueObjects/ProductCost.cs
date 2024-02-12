@@ -1,17 +1,17 @@
 ﻿using NSPS.Domain.CustomExceptions.ProductCreationExceptions;
-using NSPS.Domain.Primitives;
+
 
 
 namespace NSPS.Domain.ValueObjects;
 
-public sealed class ProductCost : AValueObject
+public record ProductCost
 {
-    public double PValue { get; init; }
+    public double ProdCost { get; private set; }
     private const double minCost = 0;
     private const double maxCost = 999999;
 
 
-    private       ProductCost(double cost) => PValue = cost;
+    private       ProductCost(double cost) => ProdCost = cost;
     public static ProductCost Create(double? cost)
     {
         if (cost is null)
@@ -31,12 +31,6 @@ public sealed class ProductCost : AValueObject
         }
 
         return new ProductCost((double)cost);
-    }
-
-
-    public override IEnumerable<object> GetAtomicValues()
-    {
-        yield return PValue;
     }
 
 }

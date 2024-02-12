@@ -1,15 +1,15 @@
 ﻿using NSPS.Domain.CustomExceptions.UserExceptions;
-using NSPS.Domain.Primitives;
+
 
 
 namespace NSPS.Domain.ValueObjects;
 
-public sealed class UserPassword : AValueObject
+public record UserPassword
 {
     //more validations and cryptography would be used here and others classes before giving a token
-    public string password { get; init; }
-    private const int maxChar = 30;
+    public string password { get; set; }
     private const int minChar = 5;
+    private const int maxChar = 30;
 
     private       UserPassword(string password)
     {
@@ -36,12 +36,6 @@ public sealed class UserPassword : AValueObject
         }
 
         return new UserPassword(password);
-    }
-
-
-    public override IEnumerable<object> GetAtomicValues()
-    {
-        yield return password;
     }
 
 }

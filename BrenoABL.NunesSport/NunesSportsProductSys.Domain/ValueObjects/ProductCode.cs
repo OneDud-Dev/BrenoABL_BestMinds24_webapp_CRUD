@@ -1,24 +1,24 @@
 ﻿using NSPS.Domain.CustomExceptions.ProductCreationExceptions;
-using NSPS.Domain.Primitives;
+
 
 
 namespace NSPS.Domain.ValueObjects;
 
-public sealed class ProductCode : AValueObject
+public record ProductCode
 {
-    public double ProdCode { get; init; }
-    private const double maxCode = 9999999;
+    public double ProdCode { get; private set; }
     private const double minCode = 0;
+    private const double maxCode = 9999999;
 
 
-    private       ProductCode(int code) => ProdCode = code;
-    public static ProductCode Create(double? code)
+    private       ProductCode(double code) => ProdCode = code;
+    public static ProductCode Create(double code)
     {
-        if (code is null)
-        {
-            throw new Product_CodeCreationException
-                    ("Product Code Can Not Be Null");
-        }
+        //if (code is null)
+        //{
+        //    throw new Product_CodeCreationException
+        //            ("Product Code Can Not Be Null");
+        //}
         if (code < minCode)
         {
             throw new Product_CodeCreationException
@@ -31,12 +31,6 @@ public sealed class ProductCode : AValueObject
         }
 
         return new ProductCode((int)code);
-    }
-
-
-    public override IEnumerable<object> GetAtomicValues()
-    {
-        yield return ProdCode;
     }
 
 }

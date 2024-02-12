@@ -14,4 +14,8 @@
     <ProjectReference Include="..\NunesSportsProductSys.Domain\NSPS.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ValueObjectsActions\" />
+  </ItemGroup>
+
 </Project>

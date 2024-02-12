@@ -1,14 +1,14 @@
 ﻿using NSPS.Domain.CustomExceptions.UserExceptions;
-using NSPS.Domain.Primitives;
+
 
 
 namespace NSPS.Domain.ValueObjects;
 
-public sealed class UserName : AValueObject
+public record UserName
 {
-    public string NameValue { get; init; }
-    private const int maxLenth = 50;
+    public string NameValue { get; set; }
     private const int minLenth = 2;
+    private const int maxLenth = 50;
 
 
     private       UserName(string inputName) => NameValue = inputName;
@@ -32,12 +32,6 @@ public sealed class UserName : AValueObject
         }
 
         return new UserName(inputName);
-    }
-
-
-    public override IEnumerable<object> GetAtomicValues()
-    {
-        yield return NameValue;
     }
 
 }

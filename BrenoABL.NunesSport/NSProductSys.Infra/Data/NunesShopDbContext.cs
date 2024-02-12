@@ -12,6 +12,6 @@ internal class NunesShopDbContext : DbContext
         base.OnConfiguring(optionsBuilder);
     }
 
-    public DbSet<Product> Products { get; set; }
+    public DbSet<Product> TheProducts { get; set; }
     //public DbSet<Admin>   admins   { get; set; }
 }

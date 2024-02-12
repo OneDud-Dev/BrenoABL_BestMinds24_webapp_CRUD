@@ -1,41 +1,30 @@
-﻿using NSPS.Domain.Primitives;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace NSPS.Domain.Entities;
 
-public class Product : AnEntity
+public class Product 
 {
-
+    [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public double Code { get;  set; }
+    public double Code       { get; private set; }
+    public string Name       { get; private set; } = string.Empty;
+    public string Description{ get; private set; } = string.Empty;
+    public double Cost       { get; private set; }
 
-    public string Name { get;  set; }
-    
-    public double Cost { get;  set; }
 
-    public string Desciption { get;  set; }
-
- 
-    public Product(
-                    Guid id, string prodName, double code, string description, double cost)
-                    : base(id)
+    public Product(double code,        string name,
+                   string description, double cost)
     {
-        Name = prodName;
-        Cost = cost;
-        Desciption = description;
         Code = code;
+        Name = name;
+        Description = description;
+        Cost = cost;
     }
 
-
-    //public static Product Create(
-    //    Guid id,
-    //    string name,
-    //    double code,
-    //    string description,
-    //    double cost)
-    //{
-    //    return new Product(id, name, cost, description, code);
-    //}
-
+    public static Product Create(double code,        string name,
+                                 string description, double cost)
+    {
+        return new Product(code, name, description, cost);
+    }
 }
